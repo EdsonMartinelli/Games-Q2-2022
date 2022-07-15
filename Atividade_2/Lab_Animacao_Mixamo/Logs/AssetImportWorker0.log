@@ -1,0 +1,1484 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit Professional' Language: 'pt' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/edson.martinelli/Lab_Animacao_Mixamo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50272
+Successfully changed project path to: C:/Users/edson.martinelli/Lab_Animacao_Mixamo
+C:/Users/edson.martinelli/Lab_Animacao_Mixamo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/edson.martinelli/Lab_Animacao_Mixamo/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K600  (ID=0xffa)
+    Vendor:   
+    VRAM:     974 MB
+    Driver:   9.18.13.1166
+Could not load symbol clCreateImage : Não foi possível encontrar o procedimento especificado.
+
+Could not load symbol clEnqueueFillBuffer : Não foi possível encontrar o procedimento especificado.
+
+Could not load symbol clEnqueueFillImage : Não foi possível encontrar o procedimento especificado.
+
+Could not load symbol clEnqueueMarkerWithWaitList : Não foi possível encontrar o procedimento especificado.
+
+Could not load symbol clGetExtensionFunctionAddressForPlatform : Não foi possível encontrar o procedimento especificado.
+
+Could not load symbol clUnloadPlatformCompiler : Não foi possível encontrar o procedimento especificado.
+
+Could not load symbol clCreateFromGLTexture : Não foi possível encontrar o procedimento especificado.
+
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003147 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3654ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (3322ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (2453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (2305ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 3.626281 ms (FindLiveObjects: 0.154289 ms CreateObjectMapping: 0.071852 ms MarkObjects: 3.322514 ms  DeleteObjects: 0.076343 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005667 seconds 
+  Import took 0.008400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.931690 seconds.
+  path: Assets/Maria_Sword
+  artifactKey: Guid(8127ed10cf261f044a1a8a4a5d50a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword using Guid(8127ed10cf261f044a1a8a4a5d50a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d41713881918a2a61e58dd412e18828') in 0.003304 seconds 
+  Import took 0.006233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.624203 seconds.
+  path: Assets/Maria_Sword/two handed sword death.fbx
+  artifactKey: Guid(4b189e747b266544bba41a07d5970a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/two handed sword death.fbx using Guid(4b189e747b266544bba41a07d5970a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38b284bf6a2df60d830a2cb1119b28a') in 0.110318 seconds 
+  Import took 0.114992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204339 seconds.
+  path: Assets/Maria_Sword/draw a great sword 1.fbx
+  artifactKey: Guid(1078fb7455beca8458029310a9580db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/draw a great sword 1.fbx using Guid(1078fb7455beca8458029310a9580db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48a52c13338a1be2ff2b920d5cefe7f') in 0.008808 seconds 
+  Import took 0.012318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028031 seconds.
+  path: Assets/Maria_Sword/draw a great sword 2.fbx
+  artifactKey: Guid(53cfac6df4ba6934dba3be1a28f35f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/draw a great sword 2.fbx using Guid(53cfac6df4ba6934dba3be1a28f35f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f256e4d0bf3722a5d9d7d9ece60c74f') in 0.038766 seconds 
+  Import took 0.044235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Maria_Sword/great sword turn.fbx
+  artifactKey: Guid(2ea49af307d34fe40945ac5355f30d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword turn.fbx using Guid(2ea49af307d34fe40945ac5355f30d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e7dbf8dacca9cd57929f97652b260b') in 0.013998 seconds 
+  Import took 0.018455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Maria_Sword/great sword high spin attack.fbx
+  artifactKey: Guid(d7a54d3312f781249b53f00ee0c65050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword high spin attack.fbx using Guid(d7a54d3312f781249b53f00ee0c65050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8804fb7d1ff6b07329f1d8a5565c91') in 0.010118 seconds 
+  Import took 0.013486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Maria_Sword/great sword kick.fbx
+  artifactKey: Guid(86ee74e1a2551a24c8429e8bfea3dfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword kick.fbx using Guid(86ee74e1a2551a24c8429e8bfea3dfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f66ef1b88e38a19151a14ff7c43605') in 0.010334 seconds 
+  Import took 0.013365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Maria_Sword/great sword power up.fbx
+  artifactKey: Guid(934f65fdb211bf44a92474811e90ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword power up.fbx using Guid(934f65fdb211bf44a92474811e90ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e728653fe5a1bbc3ab107e17bec98') in 0.010639 seconds 
+  Import took 0.014055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Maria_Sword/great sword 180 turn (2).fbx
+  artifactKey: Guid(4bbd8b703b99a65469d938daa7e6de2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword 180 turn (2).fbx using Guid(4bbd8b703b99a65469d938daa7e6de2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e1e3a07b15699e8689a3c698a7c6ed') in 0.008491 seconds 
+  Import took 0.011514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Maria_Sword/great sword idle (2).fbx
+  artifactKey: Guid(0025375975ba850459fcd56750aa176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (2).fbx using Guid(0025375975ba850459fcd56750aa176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f00ffef3566be8e9754589313d7ebc3') in 0.008540 seconds 
+  Import took 0.011589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Maria_Sword/great sword jump.fbx
+  artifactKey: Guid(b0fb641fe37db6649bcf10afd2a5afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword jump.fbx using Guid(b0fb641fe37db6649bcf10afd2a5afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794e01292209893387d586e8927920e1') in 0.008816 seconds 
+  Import took 0.011918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Maria_Sword/great sword idle.fbx
+  artifactKey: Guid(3c00cc1d06599554fb94560a1498cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle.fbx using Guid(3c00cc1d06599554fb94560a1498cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a32ca99aabcc3e682d58130b56b9f24') in 0.008029 seconds 
+  Import took 0.010997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Maria_Sword/great sword jump (2).fbx
+  artifactKey: Guid(f2798cb41b71a3445af398f1cba81a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword jump (2).fbx using Guid(f2798cb41b71a3445af398f1cba81a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8f1b3e99852396d93c484ee721aa79') in 0.008585 seconds 
+  Import took 0.011518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Maria_Sword/great sword slash (2).fbx
+  artifactKey: Guid(67cf372c166d70749a96a49452f7c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (2).fbx using Guid(67cf372c166d70749a96a49452f7c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a37ea5c84c06005e4e56826e27c5807') in 0.009290 seconds 
+  Import took 0.012211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Maria_Sword/great sword turn (2).fbx
+  artifactKey: Guid(3b1e713fb63f73243824a47d40c81d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword turn (2).fbx using Guid(3b1e713fb63f73243824a47d40c81d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f321cbd938eb795d7f4b01483c9ca0') in 0.008324 seconds 
+  Import took 0.011310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Maria_Sword/two handed sword death (2).fbx
+  artifactKey: Guid(a5ec8e6a3d62ac84f874d96c5ebb7c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/two handed sword death (2).fbx using Guid(a5ec8e6a3d62ac84f874d96c5ebb7c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0582e04d64b7c15707df03f9e045b04') in 0.009305 seconds 
+  Import took 0.012498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Maria_Sword/great sword impact (3).fbx
+  artifactKey: Guid(52035d1ac87e0744b8b8582f4303dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (3).fbx using Guid(52035d1ac87e0744b8b8582f4303dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ed3a5bbc2be54a1bf6fb72fead86de') in 0.008728 seconds 
+  Import took 0.011855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Maria_Sword/great sword impact.fbx
+  artifactKey: Guid(fd857561c9be80b468c0a0f0702f8ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact.fbx using Guid(fd857561c9be80b468c0a0f0702f8ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1a6ccfd32d56eaf9e16276c8dfb6c1') in 0.008081 seconds 
+  Import took 0.011121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Maria_Sword/great sword strafe (2).fbx
+  artifactKey: Guid(7a44d5d3021447d459a797cbad486906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe (2).fbx using Guid(7a44d5d3021447d459a797cbad486906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4705934d79594a804ff01cdbef9e83d0') in 0.008544 seconds 
+  Import took 0.011541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Maria_Sword/great sword run (2).fbx
+  artifactKey: Guid(2bfd21deb9fddc149a2eb054b36acafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword run (2).fbx using Guid(2bfd21deb9fddc149a2eb054b36acafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cbb84bd65cc4c71bad5501cceeba44') in 0.008049 seconds 
+  Import took 0.010998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Maria_Sword/great sword blocking.fbx
+  artifactKey: Guid(c582d4a9e404d7c479ec51205625f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword blocking.fbx using Guid(c582d4a9e404d7c479ec51205625f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a84ba307e1287991ad933accd2a38af') in 0.007967 seconds 
+  Import took 0.011123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Maria_Sword/great sword blocking (3).fbx
+  artifactKey: Guid(cc07e7ad3088ae14e824d951cfbbcf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword blocking (3).fbx using Guid(cc07e7ad3088ae14e824d951cfbbcf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df2147c2be0bc1a5a020b95fec64ab0') in 0.008066 seconds 
+  Import took 0.011051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Maria_Sword/great sword slash.fbx
+  artifactKey: Guid(aca9ec40f0bd5bd499a1800decb51897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash.fbx using Guid(aca9ec40f0bd5bd499a1800decb51897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c12f8f4023471c3aacded9cefbbf729') in 0.008551 seconds 
+  Import took 0.011419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Maria_Sword/great sword crouching (4).fbx
+  artifactKey: Guid(6f1feb2bc3f76b14bb6f1700ed9b5939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (4).fbx using Guid(6f1feb2bc3f76b14bb6f1700ed9b5939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb0c40608d5197e367ac590e73060a4') in 0.008082 seconds 
+  Import took 0.010949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Maria_Sword/great sword slash (4).fbx
+  artifactKey: Guid(f7ad6f9eebe3b7642ad1ad34554cc9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (4).fbx using Guid(f7ad6f9eebe3b7642ad1ad34554cc9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1e4e718411e2ad34ca01f778ed1417') in 0.008539 seconds 
+  Import took 0.011677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Maria_Sword/great sword crouching (2).fbx
+  artifactKey: Guid(2ef411de17681d04f83e1587326f6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (2).fbx using Guid(2ef411de17681d04f83e1587326f6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c1714b394d6ec77a50ace67f209738') in 0.008225 seconds 
+  Import took 0.011049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Maria_Sword/great sword idle (3).fbx
+  artifactKey: Guid(e9a093bccf2d263498e1f7fe10704494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (3).fbx using Guid(e9a093bccf2d263498e1f7fe10704494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6befe0277d081a33a49b5c41aa3308') in 0.008345 seconds 
+  Import took 0.011362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Maria_Sword/great sword impact (5).fbx
+  artifactKey: Guid(a41e28e4d2a0c6647a1768ed590395a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (5).fbx using Guid(a41e28e4d2a0c6647a1768ed590395a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45a2dabdca38362ac4cb9c6cff01b1c') in 0.008097 seconds 
+  Import took 0.011124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Maria_Sword/great sword crouching (3).fbx
+  artifactKey: Guid(2eea5405b687fe442856e05b07aba1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (3).fbx using Guid(2eea5405b687fe442856e05b07aba1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caafa548bd5570e39a7e73440dd1dbd3') in 0.008335 seconds 
+  Import took 0.011492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Maria_Sword/Maria J J Ong.fbx
+  artifactKey: Guid(f22fa9b0025bbc94cab46c2ad12dabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/Maria J J Ong.fbx using Guid(f22fa9b0025bbc94cab46c2ad12dabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e189b7906c64277ecd0addb0bb5d1a8') in 1.870059 seconds 
+  Import took 1.874091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Maria_Sword/great sword crouching (5).fbx
+  artifactKey: Guid(3e6ac0405b9b8e6499ea190d9aaa565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (5).fbx using Guid(3e6ac0405b9b8e6499ea190d9aaa565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4af81c1fc8f32d5d500c4598974e12') in 0.093036 seconds 
+  Import took 0.096792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Maria_Sword/great sword slash (5).fbx
+  artifactKey: Guid(ec81b4445dcbe0248a518f62f306c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (5).fbx using Guid(ec81b4445dcbe0248a518f62f306c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67906f75c14864499e9ba293acb6ea8b') in 0.012030 seconds 
+  Import took 0.015428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Maria_Sword/great sword run.fbx
+  artifactKey: Guid(d268f490dff997941805005b99d5e661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword run.fbx using Guid(d268f490dff997941805005b99d5e661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af270b61770f72ec75ead1a3a516680f') in 0.008409 seconds 
+  Import took 0.011628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Maria_Sword/great sword walk.fbx
+  artifactKey: Guid(d42874f911f7f8940981b796c3fa2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword walk.fbx using Guid(d42874f911f7f8940981b796c3fa2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a62a7f0caf63122ebc758ffdbb1874a') in 0.008336 seconds 
+  Import took 0.011497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Maria_Sword/great sword kick (2).fbx
+  artifactKey: Guid(d36e3446076d76e4b91e86c0a8d806f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword kick (2).fbx using Guid(d36e3446076d76e4b91e86c0a8d806f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7410cfeda38421b020e3855c25a8dcb4') in 0.008812 seconds 
+  Import took 0.011870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Maria_Sword/great sword slash (3).fbx
+  artifactKey: Guid(742f1417f1992124fa05eeb2e19b5f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (3).fbx using Guid(742f1417f1992124fa05eeb2e19b5f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa28086063a414e6ddfd3524be7a7bdc') in 0.008419 seconds 
+  Import took 0.011553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Maria_Sword/great sword slide attack.fbx
+  artifactKey: Guid(23d644928f557754baeddbe5f0bec21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slide attack.fbx using Guid(23d644928f557754baeddbe5f0bec21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04b2a8457a4b2d3bc61d1f4e2dfb549') in 0.008953 seconds 
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Maria_Sword/great sword strafe (4).fbx
+  artifactKey: Guid(43de5fd76dde979499eb29a05e28c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe (4).fbx using Guid(43de5fd76dde979499eb29a05e28c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eee220facc866d1452362359af6236e') in 0.008181 seconds 
+  Import took 0.011469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Maria_Sword/great sword casting.fbx
+  artifactKey: Guid(c4392a97f7f203c4a9cd1abaad408a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword casting.fbx using Guid(c4392a97f7f203c4a9cd1abaad408a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b16e14111333bdab45b5eb881265eb') in 0.008575 seconds 
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Maria_Sword/great sword idle (4).fbx
+  artifactKey: Guid(b490f2a9ab624e04787994bf250b9ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (4).fbx using Guid(b490f2a9ab624e04787994bf250b9ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdcc816eb7b7b5e6497c3ba1fb552a4') in 0.008689 seconds 
+  Import took 0.011756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Maria_Sword/great sword jump attack.fbx
+  artifactKey: Guid(3b2a7c3c8e38b7748a8cc6b72328f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword jump attack.fbx using Guid(3b2a7c3c8e38b7748a8cc6b72328f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a343a8da7dc85408719be38024e94078') in 0.009292 seconds 
+  Import took 0.012244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Maria_Sword/great sword 180 turn.fbx
+  artifactKey: Guid(8b5b8dc45c8df0b44844faeccce7d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword 180 turn.fbx using Guid(8b5b8dc45c8df0b44844faeccce7d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b90d4f9e5756abe05bfb1679f31d00') in 0.007958 seconds 
+  Import took 0.010891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Maria_Sword/great sword blocking (2).fbx
+  artifactKey: Guid(eb7fc9b33a977d2448131f4d2e52d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword blocking (2).fbx using Guid(eb7fc9b33a977d2448131f4d2e52d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e68f17f19f1b9a90656ebc1ae881849') in 0.008371 seconds 
+  Import took 0.011603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Maria_Sword/great sword walk (2).fbx
+  artifactKey: Guid(19e2c5f1f520b0345898cfaa78e50537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword walk (2).fbx using Guid(19e2c5f1f520b0345898cfaa78e50537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86a6b894a66fc57cbc7859090649ab1') in 0.008889 seconds 
+  Import took 0.011962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Maria_Sword/great sword strafe.fbx
+  artifactKey: Guid(ca32852a04c31a340a37ca2083596716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe.fbx using Guid(ca32852a04c31a340a37ca2083596716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9683cc92b55bcb4701f6814d022e1035') in 0.008034 seconds 
+  Import took 0.011103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Maria_Sword/great sword strafe (3).fbx
+  artifactKey: Guid(047e939ae8f134c4d8fb32770b952a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe (3).fbx using Guid(047e939ae8f134c4d8fb32770b952a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8392f039bcbcfc9272db2adbf1b6480a') in 0.008479 seconds 
+  Import took 0.011464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Maria_Sword/great sword crouching.fbx
+  artifactKey: Guid(aef1306ba7a156b4db9703bffc0e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching.fbx using Guid(aef1306ba7a156b4db9703bffc0e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb1fe424afbe9a36735517ffc2786a3') in 0.008451 seconds 
+  Import took 0.011487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Maria_Sword/great sword idle (5).fbx
+  artifactKey: Guid(f3661b50d6d20724c897c70839c4d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (5).fbx using Guid(f3661b50d6d20724c897c70839c4d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634697ae1a0d0bf62f7bcd7715a4a573') in 0.186126 seconds 
+  Import took 0.192133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Maria_Sword/great sword attack.fbx
+  artifactKey: Guid(1dcece6fab82d2f4e91f45327289ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword attack.fbx using Guid(1dcece6fab82d2f4e91f45327289ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314323b9144d09f51002bb6d30a81ef5') in 0.021099 seconds 
+  Import took 0.028484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Maria_Sword/great sword crouching (6).fbx
+  artifactKey: Guid(94404d0073c2de642a627a7194af08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (6).fbx using Guid(94404d0073c2de642a627a7194af08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3104946e856cedcd95630c8537561cb5') in 0.012278 seconds 
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Maria_Sword/great sword impact (2).fbx
+  artifactKey: Guid(ddca859f217dc7d4b8af256e62bc802f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (2).fbx using Guid(ddca859f217dc7d4b8af256e62bc802f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c3777e08be88b17dda69139eb19b13') in 0.032803 seconds 
+  Import took 0.037361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Maria_Sword/spell cast.fbx
+  artifactKey: Guid(f575ed96a25e6aa46bc819a4b7c17b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/spell cast.fbx using Guid(f575ed96a25e6aa46bc819a4b7c17b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5686ec1d2b567f9a26834fb01ca77f49') in 0.008853 seconds 
+  Import took 0.011823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Maria_Sword/great sword impact (4).fbx
+  artifactKey: Guid(0afb384f915d85a42b56f51167503666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (4).fbx using Guid(0afb384f915d85a42b56f51167503666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abb009c13e68715dc8ddb57f00bc411') in 0.049122 seconds 
+  Import took 0.052271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.973545 seconds.
+  path: Assets/Maria_Sword/two handed sword death.fbx
+  artifactKey: Guid(4b189e747b266544bba41a07d5970a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/two handed sword death.fbx using Guid(4b189e747b266544bba41a07d5970a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b0c7c51b1c6bae5faed4f05c9a6832') in 0.258584 seconds 
+  Import took 0.264879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.862692 seconds.
+  path: Assets/Maria_Sword/Maria WProp J J Ong.fbx
+  artifactKey: Guid(d8f6c75263735d34e8ed61cd4811def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/Maria WProp J J Ong.fbx using Guid(d8f6c75263735d34e8ed61cd4811def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e73698edb58baea4fb1a183439cf2dd') in 0.067669 seconds 
+  Import took 0.071688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.729126 seconds.
+  path: Assets/Maria_Sword/Maria WProp J J Ong.fbx
+  artifactKey: Guid(d8f6c75263735d34e8ed61cd4811def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/Maria WProp J J Ong.fbx using Guid(d8f6c75263735d34e8ed61cd4811def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc069e176f9a25303802bd304dde60e7') in 0.123821 seconds 
+  Import took 0.131477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.911442 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b5d500dea1ec1cf4b9b7e795875ad49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b5d500dea1ec1cf4b9b7e795875ad49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07430dd7d3111a5e046184b0db49752c') in 0.003130 seconds 
+  Import took 0.006829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.978050 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(2387c5f06d143a14d8755660758300b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(2387c5f06d143a14d8755660758300b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fa2124ebdade8c8f17f957b43a2790') in 0.003092 seconds 
+  Import took 0.007245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.608299 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(2387c5f06d143a14d8755660758300b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(2387c5f06d143a14d8755660758300b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12947fced632202509d13e3ff9fd1a76') in 0.004737 seconds 
+  Import took 0.010017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.540266 seconds.
+  path: Assets/Animations/New Animator Controller.controller
+  artifactKey: Guid(b79ea9b92c846af4082eb303790ef082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/New Animator Controller.controller using Guid(b79ea9b92c846af4082eb303790ef082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a38dc8be9dc6b2b577f584559f2ec3e') in 0.010560 seconds 
+  Import took 0.015988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.800028 seconds.
+  path: Assets/Animations/Maria_Sword.controller
+  artifactKey: Guid(b79ea9b92c846af4082eb303790ef082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Maria_Sword.controller using Guid(b79ea9b92c846af4082eb303790ef082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d89e154ae9d4994d1c27d5019881ac') in 0.002907 seconds 
+  Import took 0.006480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.687684 seconds.
+  path: Assets/Animations/Maria_com_Espada.controller
+  artifactKey: Guid(b79ea9b92c846af4082eb303790ef082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Maria_com_Espada.controller using Guid(b79ea9b92c846af4082eb303790ef082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd5146bbb7638e906df92056b2ef66b') in 0.003339 seconds 
+  Import took 0.006723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.187507 seconds.
+  path: Assets/Maria_Sword/great sword idle.fbx
+  artifactKey: Guid(3c00cc1d06599554fb94560a1498cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle.fbx using Guid(3c00cc1d06599554fb94560a1498cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8bcba6b60e22452c0da99f0ac709ba') in 0.015132 seconds 
+  Import took 0.019936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.876375 seconds.
+  path: Assets/Maria_Sword/Maria WProp J J Ong.fbm
+  artifactKey: Guid(64eb083e6bbc0d84f9e77bf48f8dc975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/Maria WProp J J Ong.fbm using Guid(64eb083e6bbc0d84f9e77bf48f8dc975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccf87a312a10864469dd376b4bd42e8') in 0.005065 seconds 
+  Import took 0.011334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.215152 seconds.
+  path: Assets/Maria_Sword/draw a great sword 1.fbx
+  artifactKey: Guid(1078fb7455beca8458029310a9580db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/draw a great sword 1.fbx using Guid(1078fb7455beca8458029310a9580db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6bd99e8acff1072a13cc42908eec90') in 0.015699 seconds 
+  Import took 0.022614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Maria_Sword/great sword turn.fbx
+  artifactKey: Guid(2ea49af307d34fe40945ac5355f30d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword turn.fbx using Guid(2ea49af307d34fe40945ac5355f30d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58f94fd8a140e2f274f92f3d39ece8b') in 0.012670 seconds 
+  Import took 0.018876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Maria_Sword/great sword high spin attack.fbx
+  artifactKey: Guid(d7a54d3312f781249b53f00ee0c65050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword high spin attack.fbx using Guid(d7a54d3312f781249b53f00ee0c65050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5226362803bc69d517782524bbf18d') in 0.014420 seconds 
+  Import took 0.020312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Maria_Sword/great sword kick.fbx
+  artifactKey: Guid(86ee74e1a2551a24c8429e8bfea3dfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword kick.fbx using Guid(86ee74e1a2551a24c8429e8bfea3dfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e60484be0a84f8d814691d5d445ff2') in 0.014049 seconds 
+  Import took 0.019962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Maria_Sword/great sword power up.fbx
+  artifactKey: Guid(934f65fdb211bf44a92474811e90ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword power up.fbx using Guid(934f65fdb211bf44a92474811e90ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de5d8ca540078b1933b2e55e77af38a') in 0.013639 seconds 
+  Import took 0.019165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Maria_Sword/great sword 180 turn (2).fbx
+  artifactKey: Guid(4bbd8b703b99a65469d938daa7e6de2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword 180 turn (2).fbx using Guid(4bbd8b703b99a65469d938daa7e6de2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d42d93e98b2bc066ca81a608d563037') in 0.014797 seconds 
+  Import took 0.020724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Maria_Sword/great sword idle (2).fbx
+  artifactKey: Guid(0025375975ba850459fcd56750aa176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (2).fbx using Guid(0025375975ba850459fcd56750aa176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a349da8ac403582d35df0ad785fc01f') in 0.013539 seconds 
+  Import took 0.018872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Maria_Sword/great sword jump.fbx
+  artifactKey: Guid(b0fb641fe37db6649bcf10afd2a5afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword jump.fbx using Guid(b0fb641fe37db6649bcf10afd2a5afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48993cf5506d7bd2b9a31c0c767b2017') in 0.013973 seconds 
+  Import took 0.019147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Maria_Sword/great sword jump (2).fbx
+  artifactKey: Guid(f2798cb41b71a3445af398f1cba81a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword jump (2).fbx using Guid(f2798cb41b71a3445af398f1cba81a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f094c410edacdf884ee376ce6cc670e7') in 0.012514 seconds 
+  Import took 0.017739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Maria_Sword/great sword slash (2).fbx
+  artifactKey: Guid(67cf372c166d70749a96a49452f7c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (2).fbx using Guid(67cf372c166d70749a96a49452f7c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b326269d1ad6d497c2309926ab307de9') in 0.014635 seconds 
+  Import took 0.019863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Maria_Sword/great sword turn (2).fbx
+  artifactKey: Guid(3b1e713fb63f73243824a47d40c81d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword turn (2).fbx using Guid(3b1e713fb63f73243824a47d40c81d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1aa92983a4ad14e36be675f25945203') in 0.012494 seconds 
+  Import took 0.017594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Maria_Sword/two handed sword death (2).fbx
+  artifactKey: Guid(a5ec8e6a3d62ac84f874d96c5ebb7c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/two handed sword death (2).fbx using Guid(a5ec8e6a3d62ac84f874d96c5ebb7c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014ac6c12c2211c34177e99c4b5cf2f4') in 0.013279 seconds 
+  Import took 0.018309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Maria_Sword/great sword impact (3).fbx
+  artifactKey: Guid(52035d1ac87e0744b8b8582f4303dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (3).fbx using Guid(52035d1ac87e0744b8b8582f4303dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858f5a6253ced22a5fc099558033e7a9') in 0.012992 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Maria_Sword/great sword impact.fbx
+  artifactKey: Guid(fd857561c9be80b468c0a0f0702f8ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact.fbx using Guid(fd857561c9be80b468c0a0f0702f8ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f978b721affa2abeadfd6683189bb166') in 0.012411 seconds 
+  Import took 0.017729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Maria_Sword/great sword strafe (2).fbx
+  artifactKey: Guid(7a44d5d3021447d459a797cbad486906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe (2).fbx using Guid(7a44d5d3021447d459a797cbad486906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c676447762f8a06d978b26a65e5784aa') in 0.012546 seconds 
+  Import took 0.018162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Maria_Sword/great sword run (2).fbx
+  artifactKey: Guid(2bfd21deb9fddc149a2eb054b36acafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword run (2).fbx using Guid(2bfd21deb9fddc149a2eb054b36acafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f0f1ed4bd0e68d898c961dcffae467') in 0.026201 seconds 
+  Import took 0.031880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Maria_Sword/great sword blocking.fbx
+  artifactKey: Guid(c582d4a9e404d7c479ec51205625f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword blocking.fbx using Guid(c582d4a9e404d7c479ec51205625f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991271a7ee8138f6ee177caae591c6cb') in 0.012361 seconds 
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Maria_Sword/great sword blocking (3).fbx
+  artifactKey: Guid(cc07e7ad3088ae14e824d951cfbbcf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword blocking (3).fbx using Guid(cc07e7ad3088ae14e824d951cfbbcf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aa0a2ef625a1dc397ae94052fa2294') in 0.060077 seconds 
+  Import took 0.065824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Maria_Sword/great sword slash.fbx
+  artifactKey: Guid(aca9ec40f0bd5bd499a1800decb51897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash.fbx using Guid(aca9ec40f0bd5bd499a1800decb51897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28554aaf78096eb1554de9d36ffe9e7') in 0.029083 seconds 
+  Import took 0.034702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Maria_Sword/great sword crouching (4).fbx
+  artifactKey: Guid(6f1feb2bc3f76b14bb6f1700ed9b5939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (4).fbx using Guid(6f1feb2bc3f76b14bb6f1700ed9b5939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da7fcd16e26d8ee6ec44017ee47c322') in 0.012617 seconds 
+  Import took 0.018048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Maria_Sword/great sword crouching (2).fbx
+  artifactKey: Guid(2ef411de17681d04f83e1587326f6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (2).fbx using Guid(2ef411de17681d04f83e1587326f6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f3a949680cf311049934dff1e3dd25') in 0.012653 seconds 
+  Import took 0.017816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Maria_Sword/great sword slash (4).fbx
+  artifactKey: Guid(f7ad6f9eebe3b7642ad1ad34554cc9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (4).fbx using Guid(f7ad6f9eebe3b7642ad1ad34554cc9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb341cf0926061c1d744c7d4881f518b') in 0.013382 seconds 
+  Import took 0.018846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Maria_Sword/great sword crouching (3).fbx
+  artifactKey: Guid(2eea5405b687fe442856e05b07aba1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (3).fbx using Guid(2eea5405b687fe442856e05b07aba1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b092bead788fc6147688b32cbd8848') in 0.012511 seconds 
+  Import took 0.017649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Maria_Sword/great sword crouching (5).fbx
+  artifactKey: Guid(3e6ac0405b9b8e6499ea190d9aaa565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (5).fbx using Guid(3e6ac0405b9b8e6499ea190d9aaa565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52e151529a996c866fad622bd470b90') in 0.012407 seconds 
+  Import took 0.017608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Maria_Sword/great sword idle (3).fbx
+  artifactKey: Guid(e9a093bccf2d263498e1f7fe10704494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (3).fbx using Guid(e9a093bccf2d263498e1f7fe10704494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd386603abd6950bec6eb8f83b97110f1') in 0.013268 seconds 
+  Import took 0.018497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Maria_Sword/great sword impact (5).fbx
+  artifactKey: Guid(a41e28e4d2a0c6647a1768ed590395a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (5).fbx using Guid(a41e28e4d2a0c6647a1768ed590395a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723064b11a5b918880a269a3ee02024e') in 0.013140 seconds 
+  Import took 0.019082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Maria_Sword/great sword slash (5).fbx
+  artifactKey: Guid(ec81b4445dcbe0248a518f62f306c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (5).fbx using Guid(ec81b4445dcbe0248a518f62f306c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4c9683cfe16492eeb5b4144d62e83b') in 0.013128 seconds 
+  Import took 0.018418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Maria_Sword/great sword run.fbx
+  artifactKey: Guid(d268f490dff997941805005b99d5e661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword run.fbx using Guid(d268f490dff997941805005b99d5e661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadd31e44d89c76d1ef7161dc6c6d4a8') in 0.025291 seconds 
+  Import took 0.030651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Maria_Sword/great sword walk.fbx
+  artifactKey: Guid(d42874f911f7f8940981b796c3fa2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword walk.fbx using Guid(d42874f911f7f8940981b796c3fa2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b02bf83ff7705d2d4f38ac475b3939') in 0.012627 seconds 
+  Import took 0.017758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Maria_Sword/great sword kick (2).fbx
+  artifactKey: Guid(d36e3446076d76e4b91e86c0a8d806f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword kick (2).fbx using Guid(d36e3446076d76e4b91e86c0a8d806f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d041f47ba82f3d81f0d1803afff579') in 0.013245 seconds 
+  Import took 0.018229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Maria_Sword/great sword slash (3).fbx
+  artifactKey: Guid(742f1417f1992124fa05eeb2e19b5f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash (3).fbx using Guid(742f1417f1992124fa05eeb2e19b5f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf5636c716985f88c6d5fddce1bdc78') in 0.013866 seconds 
+  Import took 0.019190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Maria_Sword/great sword slide attack.fbx
+  artifactKey: Guid(23d644928f557754baeddbe5f0bec21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slide attack.fbx using Guid(23d644928f557754baeddbe5f0bec21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515ff60dc321c2a058f536f7d766cd48') in 0.013259 seconds 
+  Import took 0.018410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Maria_Sword/great sword strafe (4).fbx
+  artifactKey: Guid(43de5fd76dde979499eb29a05e28c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe (4).fbx using Guid(43de5fd76dde979499eb29a05e28c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da68ef9d799e901e34e251e8526b760') in 0.012540 seconds 
+  Import took 0.017532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Maria_Sword/great sword casting.fbx
+  artifactKey: Guid(c4392a97f7f203c4a9cd1abaad408a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword casting.fbx using Guid(c4392a97f7f203c4a9cd1abaad408a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802235c892058f626e4719fcebea096d') in 0.012943 seconds 
+  Import took 0.017882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Maria_Sword/great sword idle (4).fbx
+  artifactKey: Guid(b490f2a9ab624e04787994bf250b9ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (4).fbx using Guid(b490f2a9ab624e04787994bf250b9ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d6f0c43a80c165549ab9880c8ace79') in 0.013960 seconds 
+  Import took 0.019245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Maria_Sword/great sword jump attack.fbx
+  artifactKey: Guid(3b2a7c3c8e38b7748a8cc6b72328f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword jump attack.fbx using Guid(3b2a7c3c8e38b7748a8cc6b72328f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc200bdad895b491e8941684420694c') in 0.013604 seconds 
+  Import took 0.019010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Maria_Sword/great sword 180 turn.fbx
+  artifactKey: Guid(8b5b8dc45c8df0b44844faeccce7d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword 180 turn.fbx using Guid(8b5b8dc45c8df0b44844faeccce7d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41901ea74de8a7ba5f3a8363bc8ea1e1') in 0.013236 seconds 
+  Import took 0.018578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Maria_Sword/great sword blocking (2).fbx
+  artifactKey: Guid(eb7fc9b33a977d2448131f4d2e52d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword blocking (2).fbx using Guid(eb7fc9b33a977d2448131f4d2e52d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55e0160ba9f0c8a41a367d5629f70f2') in 0.012208 seconds 
+  Import took 0.017287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Maria_Sword/draw a great sword 2.fbx
+  artifactKey: Guid(53cfac6df4ba6934dba3be1a28f35f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/draw a great sword 2.fbx using Guid(53cfac6df4ba6934dba3be1a28f35f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fafc8064e996f49276757fd5784082') in 0.012814 seconds 
+  Import took 0.018027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Maria_Sword/great sword strafe.fbx
+  artifactKey: Guid(ca32852a04c31a340a37ca2083596716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe.fbx using Guid(ca32852a04c31a340a37ca2083596716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeb06fce2b495626536d7f18e66cb9d') in 0.012453 seconds 
+  Import took 0.017398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Maria_Sword/great sword walk (2).fbx
+  artifactKey: Guid(19e2c5f1f520b0345898cfaa78e50537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword walk (2).fbx using Guid(19e2c5f1f520b0345898cfaa78e50537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4a8e37230722164bf7b7debd0a5663') in 0.013265 seconds 
+  Import took 0.018400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Maria_Sword/great sword strafe (3).fbx
+  artifactKey: Guid(047e939ae8f134c4d8fb32770b952a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword strafe (3).fbx using Guid(047e939ae8f134c4d8fb32770b952a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ed5d1980e065c9386b9a162087963c') in 0.013128 seconds 
+  Import took 0.018291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Maria_Sword/great sword crouching.fbx
+  artifactKey: Guid(aef1306ba7a156b4db9703bffc0e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching.fbx using Guid(aef1306ba7a156b4db9703bffc0e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847e68cc3a1e5de3f410e0ccf028a839') in 0.012121 seconds 
+  Import took 0.016867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Maria_Sword/great sword idle (5).fbx
+  artifactKey: Guid(f3661b50d6d20724c897c70839c4d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (5).fbx using Guid(f3661b50d6d20724c897c70839c4d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3dcc94470df7b01bf6e7af8fab3362') in 0.015322 seconds 
+  Import took 0.020159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Maria_Sword/great sword attack.fbx
+  artifactKey: Guid(1dcece6fab82d2f4e91f45327289ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword attack.fbx using Guid(1dcece6fab82d2f4e91f45327289ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461f654bb4ab441b15c7d6f1c587b626') in 0.012684 seconds 
+  Import took 0.017560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Maria_Sword/great sword crouching (6).fbx
+  artifactKey: Guid(94404d0073c2de642a627a7194af08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching (6).fbx using Guid(94404d0073c2de642a627a7194af08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5c7e64f453dc071762010edc2a30c8') in 0.011058 seconds 
+  Import took 0.015663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Maria_Sword/great sword impact (2).fbx
+  artifactKey: Guid(ddca859f217dc7d4b8af256e62bc802f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (2).fbx using Guid(ddca859f217dc7d4b8af256e62bc802f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ddc98f18e0b6fc844f8f22b38580ab') in 0.011679 seconds 
+  Import took 0.016630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Maria_Sword/spell cast.fbx
+  artifactKey: Guid(f575ed96a25e6aa46bc819a4b7c17b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/spell cast.fbx using Guid(f575ed96a25e6aa46bc819a4b7c17b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198ee2e0ba37599208bad3c76c1112ac') in 0.013200 seconds 
+  Import took 0.018187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Maria_Sword/great sword impact (4).fbx
+  artifactKey: Guid(0afb384f915d85a42b56f51167503666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword impact (4).fbx using Guid(0afb384f915d85a42b56f51167503666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebe5c06071c519c03acfe3c19f7026e') in 0.012972 seconds 
+  Import took 0.018013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.723723 seconds.
+  path: Assets/Maria_Sword/Maria WProp J J Ong.fbx
+  artifactKey: Guid(d8f6c75263735d34e8ed61cd4811def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/Maria WProp J J Ong.fbx using Guid(d8f6c75263735d34e8ed61cd4811def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bbb25176852fab319800ccf62d7267') in 0.079495 seconds 
+  Import took 0.083856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.091430 seconds.
+  path: Assets/Maria_Sword/great sword idle.fbx
+  artifactKey: Guid(3c00cc1d06599554fb94560a1498cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle.fbx using Guid(3c00cc1d06599554fb94560a1498cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e46ae636452fa66fa44ab73733931f') in 0.010198 seconds 
+  Import took 0.015431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1662ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1347ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (475ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 3.801420 ms (FindLiveObjects: 0.168082 ms CreateObjectMapping: 0.071852 ms MarkObjects: 3.528768 ms  DeleteObjects: 0.031114 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1684ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1394ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 3.544806 ms (FindLiveObjects: 0.161025 ms CreateObjectMapping: 0.070248 ms MarkObjects: 3.283059 ms  DeleteObjects: 0.028548 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328.667653 seconds.
+  path: Assets/Maria_Sword/great sword idle (2).fbx
+  artifactKey: Guid(0025375975ba850459fcd56750aa176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword idle (2).fbx using Guid(0025375975ba850459fcd56750aa176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0038390f00299324e116afdcb6c76f1') in 0.052025 seconds 
+  Import took 0.056361 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1074ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 3.947370 ms (FindLiveObjects: 0.302805 ms CreateObjectMapping: 0.071531 ms MarkObjects: 3.541278 ms  DeleteObjects: 0.029190 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 148.395081 seconds.
+  path: Assets/Maria_Sword/great sword attack.fbx
+  artifactKey: Guid(1dcece6fab82d2f4e91f45327289ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword attack.fbx using Guid(1dcece6fab82d2f4e91f45327289ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe595e6d8c68a3f03aa202c859dc78c') in 0.053195 seconds 
+  Import took 0.059030 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1986.
+Total: 3.711605 ms (FindLiveObjects: 0.174819 ms CreateObjectMapping: 0.134402 ms MarkObjects: 3.370950 ms  DeleteObjects: 0.029831 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.083123 seconds.
+  path: Assets/Maria_Sword/great sword crouching.fbx
+  artifactKey: Guid(aef1306ba7a156b4db9703bffc0e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword crouching.fbx using Guid(aef1306ba7a156b4db9703bffc0e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1537221024910094eec0d4376a49d8e') in 0.042228 seconds 
+  Import took 0.047030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.076722 seconds.
+  path: Assets/Maria_Sword/great sword slash.fbx
+  artifactKey: Guid(aca9ec40f0bd5bd499a1800decb51897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slash.fbx using Guid(aca9ec40f0bd5bd499a1800decb51897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099e842b6dc0449bf786effce14f31ef') in 0.010419 seconds 
+  Import took 0.014777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.853951 seconds.
+  path: Assets/Maria_Sword/great sword high spin attack.fbx
+  artifactKey: Guid(d7a54d3312f781249b53f00ee0c65050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword high spin attack.fbx using Guid(d7a54d3312f781249b53f00ee0c65050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62236f1282a5afea58b2f0d5705b77d2') in 0.012800 seconds 
+  Import took 0.018328 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1785ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (513ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 7.592897 ms (FindLiveObjects: 0.323334 ms CreateObjectMapping: 0.070569 ms MarkObjects: 7.156011 ms  DeleteObjects: 0.040417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 348.726707 seconds.
+  path: Assets/Maria_Sword/great sword slide attack.fbx
+  artifactKey: Guid(23d644928f557754baeddbe5f0bec21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/great sword slide attack.fbx using Guid(23d644928f557754baeddbe5f0bec21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458acc499bcdb5c6f3e9565bbf45a43c') in 0.054063 seconds 
+  Import took 0.058425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.280894 seconds.
+  path: Assets/Maria_Sword/draw a great sword 1.fbx
+  artifactKey: Guid(1078fb7455beca8458029310a9580db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maria_Sword/draw a great sword 1.fbx using Guid(1078fb7455beca8458029310a9580db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e369b6b11be2c6da15a435d4994b8f') in 0.009302 seconds 
+  Import took 0.014198 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 5.123626 ms (FindLiveObjects: 0.272011 ms CreateObjectMapping: 0.095268 ms MarkObjects: 4.714326 ms  DeleteObjects: 0.039454 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
