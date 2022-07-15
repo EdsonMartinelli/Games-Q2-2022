@@ -1,0 +1,174 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Garota : MonoBehaviour
+{
+    /* 
+       Classe do componente do Unity que habilita as forças físicas que aturaram 
+       sobre o objeto instância. 
+    */
+    public Rigidbody cr;
+    /*
+       Classe do componente do Unity que possui uma interface de que controla
+       mecanismos de animação. 	
+    */
+    public Animator anim;
+    /*
+       Variável de controle da corrida.	
+    */	
+    private bool correr = false;
+    
+    void Start()
+    {
+        /*
+           Busca componente Animator da instância.
+        */
+        anim = GetComponent<Animator>();
+        /*
+           Busca componente Animator da instância.
+        */
+        cr = GetComponent<Rigidbody>();
+    }
+
+    void Update()
+    {
+        /*
+           Utilizando o método GeyKeyDow() da classe Input do Unity para recolher
+           informações de teclas pressionadas.
+	   Após isso, é utilizado o método Play() da classe Animator para iniciar
+	   a animação.
+        */
+        if (Input.GetKeyDown("0"))
+        {
+            anim.Play("WAIT00");
+        }
+        if (Input.GetKeyDown("1"))
+        {
+            anim.Play("WAIT01");
+        }
+        if (Input.GetKeyDown("2"))
+        {
+            anim.Play("WAIT02");
+        }
+        if (Input.GetKeyDown("3"))
+        {
+            anim.Play("WAIT03");
+        }
+        if (Input.GetKeyDown("4"))
+        {
+            anim.Play("WAIT04");
+        }
+
+
+        if (Input.GetKeyDown("space"))
+        {
+            anim.Play("JUMP00");
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            anim.Play("LOSE00");
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            anim.Play("SLIDE00");
+        }
+
+        /*
+           Utilizando GetMouseButtonDown(0) para verificar se o botão esquerdo do
+           mouse foi pressionado.
+        */
+        if (Input.GetMouseButtonDown(0))
+        {
+            /*
+               Escolhendo um número aleatóriamente entre 0 e 1 para selecionar a
+               das animações de Damage.
+            */
+            int n = Random.Range(0, 2);
+
+            if(n == 0)
+            {
+                anim.Play("DAMAGED00");
+            }
+            else
+            {
+                anim.Play("DAMAGED01");
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            anim.Play("WALK00_F");
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            anim.Play("WALK00_B");
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            anim.Play("WALK00_L");
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            anim.Play("WALK00_R");
+        }
+
+        /* 
+           Verificando se a tecla shift esquerdo está selecionada para habilitar
+           a variavel de correr.
+        */
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            correr = true;
+        } else
+        {
+            correr = false;
+        }
+
+        /*
+           Obtem informações dos dispositivos de entrada nos eixos horizontais e
+           verticais.
+        */
+        float entradaH = Input.GetAxis("Horizontal");
+        float entradaV = Input.GetAxis("Vertical");
+
+        /*
+           Define os valores de entradaH, entradaV e correr, variáveis de controle
+           de animacão.
+        */
+        anim.SetFloat("entradaH", entradaH);
+        anim.SetFloat("entradaV", entradaV);
+        anim.SetBool("correr", correr);
+
+        /*
+           Define a velocidade de movimentação em ambos os eixos.
+        */
+        float moveX = entradaH * 20.0f * Time.deltaTime;
+        float moveZ = entradaV * 50.0f * Time.deltaTime;
+
+        /*
+           Imprime as velocidades de movimentação na console.
+        */
+        print("x: " + moveX + " z: " + moveZ);
+
+        /*
+           Impede movimentos puramente horizontais, dado que as animações não foram
+           configuradas para isso.
+	   Caso shift esquerdo esteja apertado a velocidade de movimentação é 
+           multiplicada por 3 em ambos os eixos.
+        */
+        if (moveZ <= 0f)
+        {
+            moveX = 0f;
+        } else if (correr)
+        {
+            moveX *= 3f;
+            moveZ *= 3f;
+        }
+
+	/*
+	   Insere um vetor de força no RigidBody, permitindo sua locomoção.
+	*/
+        cr.velocity = new Vector3(moveX, 0.0f, moveZ);
+    }
+}
