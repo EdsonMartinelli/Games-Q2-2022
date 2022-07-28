@@ -37,8 +37,25 @@ public class MovePlayer : MonoBehaviour
 
             // Armazena o movimento em um vetor 2D.
             movimento = ctx.ReadValue<Vector2>();
-            // Verfica se o movimento é 0 em ambos os eixos.
-            movimentoPressionado = movimento.x != 0 || movimento.y != 0; 
+            /* Verfica se o movimento é 0 em ambos os eixos. A linha foi comentada
+             * pois alterei algumas coisas que deixaram a movimentação mais fluida.
+             */
+            // movimentoPressionado = movimento.x != 0 || movimento.y != 0; 
+
+            /* Coloca o movimentoPressionado como true para que Move funcione
+             * corretamente.
+             */
+            movimentoPressionado = true;
+        };
+
+
+        /* canceled é um evento similar ao performed, mas é disparado quando a action
+         * é cancelada. Foi adicionado por mim para gerar mais fluidez.
+         */
+        input.Player.Move.canceled += ctx =>
+        {
+            // Quando a ação é cancelada, o movimento é setado para false.
+            movimentoPressionado = false;
         };
 
         // Mesma descrição do comando a cima.

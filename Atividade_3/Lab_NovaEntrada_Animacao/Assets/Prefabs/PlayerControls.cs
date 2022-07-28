@@ -117,7 +117,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""DirKeys"",
                     ""id"": ""71f2856c-8e11-4110-83ba-ab822b384b78"",
                     ""path"": ""2DVector"",
-                    ""interactions"": ""Press(behavior=2)"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Move"",
