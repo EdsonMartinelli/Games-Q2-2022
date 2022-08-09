@@ -9,7 +9,7 @@ Esse repositório contém todas as atividades realizadas no curso de Jogos Digit
 
 ## Links
 
-- Atividade 1: [https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_1](https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_1)
+- Atividade 1 + Maya: [https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_1](https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_1)
 - Atividade 2: [https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_2](https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_2)
 - Atividade 3: [https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_3](https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_3)
 - Atividade 4: [https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_4](https://github.com/EdsonMartinelli/Games-Q2-2022/tree/atividade_4)
